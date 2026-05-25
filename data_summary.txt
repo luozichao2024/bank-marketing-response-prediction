@@ -1,0 +1,48 @@
+Dataset shape:
+(45211, 17)
+
+Columns:
+['age', 'job', 'marital', 'education', 'default', 'balance', 'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign', 'pdays', 'previous', 'poutcome', 'y']
+
+Target distribution:
+y
+no     39922
+yes     5289
+Name: count, dtype: int64
+
+Target distribution ratio:
+y
+no     0.883015
+yes    0.116985
+Name: proportion, dtype: float64
+
+Missing values:
+age          0
+job          0
+marital      0
+education    0
+default      0
+balance      0
+housing      0
+loan         0
+contact      0
+day          0
+month        0
+duration     0
+campaign     0
+pdays        0
+previous     0
+poutcome     0
+y            0
+dtype: int64
+
+Numeric feature description:
+                age        balance           day      duration      campaign         pdays      previous
+count  45211.000000   45211.000000  45211.000000  45211.000000  45211.000000  45211.000000  45211.000000
+mean      40.936210    1362.272058     15.806419    258.163080      2.763841     40.197828      0.580323
+std       10.618762    3044.765829      8.322476    257.527812      3.098021    100.128746      2.303441
+min       18.000000   -8019.000000      1.000000      0.000000      1.000000     -1.000000      0.000000
+25%       33.000000      72.000000      8.000000    103.000000      1.000000     -1.000000      0.000000
+50%       39.000000     448.000000     16.000000    180.000000      2.000000     -1.000000      0.000000
+75%       48.000000    1428.000000     21.000000    319.000000      3.000000     -1.000000      0.000000
+max       95.000000  102127.000000     31.000000   4918.000000     63.000000    871.000000    275.000000

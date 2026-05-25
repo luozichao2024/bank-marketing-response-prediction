@@ -1,0 +1,14 @@
+Best model: Random Forest
+Best selection metric: F1-score
+Best parameters: {'classifier__max_depth': None, 'classifier__min_samples_leaf': 3, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 200}
+Best threshold: 0.50
+Threshold metrics: Accuracy=0.8924, Precision=0.5280, Recall=0.7580, F1=0.6224, ROC-AUC=0.9306
+
+              precision    recall  f1-score   support
+
+          no       0.97      0.91      0.94      7985
+         yes       0.53      0.76      0.62      1058
+
+    accuracy                           0.89      9043
+   macro avg       0.75      0.83      0.78      9043
+weighted avg       0.91      0.89      0.90      9043

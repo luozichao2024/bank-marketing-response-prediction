@@ -1,0 +1,5 @@
+﻿model,accuracy,precision,recall,f1,roc_auc,best_params
+Logistic Regression,0.8457370341700763,0.41824357108199905,0.8147448015122873,0.5527412632253927,0.9078966587872109,{'classifier__C': 1.0}
+Decision Tree,0.8490545173062037,0.42321160580290146,0.7996219281663516,0.5534838076545633,0.8656360638389797,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 10}"
+Random Forest,0.8924029636182683,0.5279789335088875,0.7580340264650284,0.6224291812184711,0.9306241736336917,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 3, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 200}"
+XGBoost,0.8755943823952228,0.4817039868924085,0.833648393194707,0.6105919003115264,0.9317148291988879,"{'classifier__colsample_bytree': 0.8, 'classifier__learning_rate': 0.05, 'classifier__max_depth': 7, 'classifier__n_estimators': 300, 'classifier__subsample': 0.8}"
